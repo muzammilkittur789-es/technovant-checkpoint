@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowRight } from "lucide-react";
+import LogoMark from "@/components/LogoMark";
 import { COMPANY_INFO } from "@/data/company";
 
 export default function Navbar() {
@@ -33,10 +34,7 @@ export default function Navbar() {
           {/* 1. Left: Technovant Logo Matching Website Palette */}
           <Link href="/" className="flex items-center gap-3 group shrink-0">
             <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-700 via-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-sm shadow-blue-500/20 group-hover:scale-105 transition-transform">
-              <svg viewBox="0 0 24 24" className="w-5 h-5 fill-none stroke-current stroke-[2.2]" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M12 7v10M7 12h10" />
-              </svg>
+              <LogoMark className="w-5 h-5" />
             </div>
             
             <div className="flex items-center tracking-tight">

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import LogoMark from "@/components/LogoMark";
 import { COMPANY_INFO } from "@/data/company";
 
 export default function Footer() {
@@ -15,10 +16,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-700 via-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-sm shadow-blue-500/20">
-                <svg viewBox="0 0 24 24" className="w-5 h-5 fill-none stroke-current stroke-[2.2]" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M12 7v10M7 12h10" />
-                </svg>
+                <LogoMark className="w-5 h-5" />
               </div>
               <div className="flex items-center tracking-tight">
                 <span className="font-extrabold text-xl text-white">TECHNO</span>
