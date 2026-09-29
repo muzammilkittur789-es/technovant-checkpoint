@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Sora, Poppins } from "next/font/google";
+import { Nunito_Sans, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const sora = Sora({
-  variable: "--font-sora",
+const nunitoSans = Nunito_Sans({
+  variable: "--font-nunito-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "600", "700", "800"],
   display: "swap",
 });
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const lato = Lato({
+  variable: "--font-lato",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${sora.variable} ${poppins.variable} h-full antialiased`}
+      className={`${nunitoSans.variable} ${lato.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-900">
         <Navbar />

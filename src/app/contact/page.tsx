@@ -24,12 +24,12 @@ export default function ContactPage() {
       {/* 1. Contact Hero */}
       <section className="bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80 pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-semibold text-blue-700 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-blue-700 shadow-xs">
             <span className="w-2 h-2 rounded-full bg-blue-600"></span>
             <span>Direct Engineering Consultation</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.025em] max-w-4xl mx-auto leading-[1.14]">
             Let&apos;s Build <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Something Useful
@@ -49,10 +49,10 @@ export default function ContactPage() {
           {/* Left Column: Contact Info & Value Commitments (5 cols) */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-3">
-              <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+              <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
                 Direct Communication
               </span>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em]">
+              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em]">
                 Reach Out to Our Team
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed font-normal">
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-bold uppercase tracking-wider text-slate-500">
                     Email Inquiries
                   </div>
                   <a
@@ -87,7 +87,7 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-bold uppercase tracking-wider text-slate-500">
                     Phone &amp; Direct Voice
                   </div>
                   <div className="text-base font-bold text-slate-900">
@@ -104,7 +104,7 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-bold uppercase tracking-wider text-slate-500">
                     Office Hubs
                   </div>
                   <div className="text-sm font-bold text-slate-900">
@@ -119,10 +119,10 @@ export default function ContactPage() {
 
             {/* Official Social Links */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
-              <span className="text-xs font-medium uppercase tracking-wider text-slate-500 block">
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block">
                 Official Channels:
               </span>
-              <div className="flex items-center gap-4 text-xs font-semibold">
+              <div className="flex items-center gap-4 text-xs font-bold">
                 <a
                   href={COMPANY_INFO.contact.linkedIn}
                   target="_blank"
@@ -154,15 +154,15 @@ export default function ContactPage() {
 
             {/* Commitments */}
             <div className="space-y-2.5 pt-2">
-              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-medium">
+              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-bold">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>Transparent scoping with no hidden fees</span>
               </div>
-              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-medium">
+              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-bold">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>Documented milestones &amp; full source code ownership</span>
               </div>
-              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-medium">
+              <div className="flex items-center gap-2.5 text-xs text-slate-600 font-bold">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>NDA protected discussions upon request</span>
               </div>

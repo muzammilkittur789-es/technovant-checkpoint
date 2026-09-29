@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-heading: var(--font-sora), sans-serif;
-  --font-sans: var(--font-poppins), sans-serif;
-  --font-mono: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-nunito-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-lato), sans-serif;
 }
 
 :root {
@@ -25,7 +25,7 @@ html {
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-poppins), sans-serif;
+  font-family: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -33,59 +33,61 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Primary Heading System: Sora */
+/* Primary Heading System: Nunito Sans */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-sora), sans-serif;
+  font-family: var(--font-nunito-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Hero H1: 800 with slightly negative letter spacing */
+/* Hero H1: 800 - Visually strong, balanced, modern, authoritative */
 h1 {
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.12;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
 }
 
-/* Major Headings: 700 with slightly negative letter spacing */
+/* Major Headings: 700–800 */
 h2 {
-  font-weight: 700;
-  letter-spacing: -0.025em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
-/* Section/Card Headings: 600-700 */
+/* Section Headings: 700 */
 h3 {
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   line-height: 1.25;
 }
 
+/* Card Headings: 600–700 */
 h4, h5, h6 {
-  font-weight: 600;
-  letter-spacing: -0.015em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   line-height: 1.3;
 }
 
-/* Body Text, Form Inputs, UI Elements: Poppins */
+/* Body Text & Supporting Text: Lato 400 */
 p, input, textarea, select {
-  font-family: var(--font-poppins), sans-serif;
+  font-family: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400;
 }
 
-/* Navigation Links: Poppins 500 */
+/* Navigation Links: Lato 700 (or 500/700) */
 nav a {
-  font-family: var(--font-poppins), sans-serif;
-  font-weight: 500;
+  font-family: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
 }
 
-/* Buttons: Poppins 600 */
-button, [role="button"] {
-  font-family: var(--font-poppins), sans-serif;
+/* Buttons: Lato 700 */
+button, [role="button"], a.btn {
+  font-family: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
 }
 
-/* Labels, Supporting Badges, Section Numbers: Poppins 500 */
+/* Labels, Supporting Badges, Section Numbers: Lato 700 / 500 */
 .font-mono, code, kbd, samp, pre {
-  font-family: var(--font-poppins), sans-serif;
-  font-weight: 500;
+  font-family: var(--font-lato), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 

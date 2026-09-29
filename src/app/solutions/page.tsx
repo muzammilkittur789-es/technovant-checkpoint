@@ -38,12 +38,12 @@ export default function SolutionsPage() {
       {/* 1. Hero Section */}
       <section className="bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80 pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-semibold text-blue-700 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-blue-700 shadow-xs">
             <span className="w-2 h-2 rounded-full bg-blue-600"></span>
             <span>Business-First Engineering</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.025em] max-w-4xl mx-auto leading-[1.14]">
             Technology Solutions Designed Around <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Business Problems
@@ -57,13 +57,13 @@ export default function SolutionsPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               Discuss Your Challenge
             </Link>
             <a
               href="#solutions-list"
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
             >
               Explore 7 Solution Areas
             </a>
@@ -87,15 +87,15 @@ export default function SolutionsPage() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-medium text-blue-600">
+                    <span className="text-xs font-bold text-blue-600">
                       AREA 0{index + 1}
                     </span>
                     <span className="text-slate-300">&bull;</span>
-                    <span className="text-xs font-medium px-2 py-0.5 rounded bg-slate-100 text-slate-700">
+                    <span className="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700">
                       {solution.badge}
                     </span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
                     {solution.title}
                   </h2>
                 </div>
@@ -103,7 +103,7 @@ export default function SolutionsPage() {
 
               <Link
                 href={`/contact?solution=${solution.id}`}
-                className="inline-flex items-center gap-2 text-xs font-semibold text-blue-600 hover:text-blue-700"
+                className="inline-flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-700"
               >
                 <span>Request Solution Blueprint</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -187,16 +187,16 @@ export default function SolutionsPage() {
       {/* 3. Bottom Consultation Callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold tracking-[-0.025em]">
+          <h2 className="text-3xl font-bold tracking-[-0.02em]">
             Have a Specific Operational Challenge?
           </h2>
-          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">
             Tell us about your team&apos;s current friction, manual bottlenecks, or outdated tools. We will outline a practical, cost-effective digital solution plan.
           </p>
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
             >
               <span>Schedule an Engineering Discovery Call</span>
               <ArrowRight className="w-4 h-4" />

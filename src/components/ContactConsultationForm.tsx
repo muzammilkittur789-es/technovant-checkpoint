@@ -51,7 +51,7 @@ export default function ContactConsultationForm() {
             </div>
             <div className="flex justify-between text-slate-500">
               <span>Selected Scope:</span>
-              <span className="font-semibold text-slate-800">{formState.serviceNeeded}</span>
+              <span className="font-bold text-slate-800">{formState.serviceNeeded}</span>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function ContactConsultationForm() {
                   projectDetails: "",
                 });
               }}
-              className="px-6 py-2.5 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors"
+              className="px-6 py-2.5 rounded-xl bg-slate-900 text-white text-xs font-bold hover:bg-slate-800 transition-colors"
             >
               Send Another Enquiry
             </button>
@@ -80,7 +80,7 @@ export default function ContactConsultationForm() {
             <h3 className="text-xl font-bold text-slate-900">
               Start a Conversation
             </h3>
-            <p className="text-xs text-slate-500">
+            <p className="text-xs text-slate-500 font-normal">
               Fill in your details below to schedule an initial technical discussion.
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function ContactConsultationForm() {
           {/* 1. Name & Work Email */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+              <label className="block text-xs font-bold text-slate-700 mb-1.5">
                 Your Name *
               </label>
               <input
@@ -97,12 +97,12 @@ export default function ContactConsultationForm() {
                 placeholder="Full Name"
                 value={formState.name}
                 onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
               />
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+              <label className="block text-xs font-bold text-slate-700 mb-1.5">
                 Work Email *
               </label>
               <input
@@ -111,7 +111,7 @@ export default function ContactConsultationForm() {
                 placeholder="you@company.com"
                 value={formState.email}
                 onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function ContactConsultationForm() {
           {/* 2. Company & Phone */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+              <label className="block text-xs font-bold text-slate-700 mb-1.5">
                 Company Name *
               </label>
               <input
@@ -128,12 +128,12 @@ export default function ContactConsultationForm() {
                 placeholder="Your Organization"
                 value={formState.company}
                 onChange={(e) => setFormState({ ...formState, company: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
               />
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+              <label className="block text-xs font-bold text-slate-700 mb-1.5">
                 Phone Number
               </label>
               <input
@@ -141,20 +141,20 @@ export default function ContactConsultationForm() {
                 placeholder="+1 / +91 ..."
                 value={formState.phone}
                 onChange={(e) => setFormState({ ...formState, phone: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
               />
             </div>
           </div>
 
           {/* 3. What do you need? */}
           <div>
-            <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+            <label className="block text-xs font-bold text-slate-700 mb-1.5">
               What do you need? *
             </label>
             <select
               value={formState.serviceNeeded}
               onChange={(e) => setFormState({ ...formState, serviceNeeded: e.target.value })}
-              className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+              className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
             >
               <option>Web Development</option>
               <option>Mobile App Development</option>
@@ -171,7 +171,7 @@ export default function ContactConsultationForm() {
 
           {/* 4. Project details */}
           <div>
-            <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+            <label className="block text-xs font-bold text-slate-700 mb-1.5">
               Project Details &amp; Objectives *
             </label>
             <textarea
@@ -180,7 +180,7 @@ export default function ContactConsultationForm() {
               placeholder="Tell us about the business problem, current bottlenecks, target timeline, or specific requirements..."
               value={formState.projectDetails}
               onChange={(e) => setFormState({ ...formState, projectDetails: e.target.value })}
-              className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+              className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-normal"
             />
           </div>
 
@@ -188,7 +188,7 @@ export default function ContactConsultationForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98] disabled:opacity-70"
+            className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98] disabled:opacity-70"
           >
             <span>{isSubmitting ? "Submitting..." : "Send Enquiry"}</span>
             <Send className="w-4 h-4" />

@@ -43,7 +43,7 @@ export default function SaaSInteractiveSuite() {
             <button
               key={product.id}
               onClick={() => setSelectedProductIndex(idx)}
-              className={`flex items-center gap-3 px-5 py-3 rounded-xl border text-sm font-semibold transition-all ${
+              className={`flex items-center gap-3 px-5 py-3 rounded-xl border text-sm font-bold transition-all ${
                 isSelected
                   ? "bg-white border-blue-600 text-blue-700 shadow-lg shadow-blue-500/10 ring-2 ring-blue-600/20"
                   : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-white hover:border-slate-300"
@@ -80,22 +80,22 @@ export default function SaaSInteractiveSuite() {
           <div className="p-8 lg:p-12 lg:col-span-7 flex flex-col justify-between">
             <div className="space-y-6">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
                   {activeProduct.category}
                 </span>
-                <span className="flex items-center gap-1 text-xs text-amber-600 font-semibold bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">
+                <span className="flex items-center gap-1 text-xs text-amber-600 font-bold bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">
                   ★ {activeProduct.rating} / 5.0 ({activeProduct.reviewsCount} enterprise reviews)
                 </span>
               </div>
 
               <div>
-                <h3 className="text-3xl font-bold text-slate-900 tracking-tight">
+                <h3 className="text-3xl font-bold text-slate-900 tracking-[-0.02em]">
                   {activeProduct.name}
                 </h3>
-                <p className="text-lg text-blue-600 font-medium mt-1">
+                <p className="text-lg text-blue-600 font-bold mt-1">
                   {activeProduct.tagline}
                 </p>
-                <p className="text-slate-600 text-sm md:text-base leading-relaxed mt-3">
+                <p className="text-slate-600 text-sm md:text-base leading-relaxed mt-3 font-normal">
                   {activeProduct.description}
                 </p>
               </div>
@@ -105,7 +105,7 @@ export default function SaaSInteractiveSuite() {
                 {activeProduct.keyStats.map((stat, i) => (
                   <div key={i} className="text-left">
                     <div className="text-xl md:text-2xl font-black text-slate-900">{stat.value}</div>
-                    <div className="text-xs text-slate-500 font-medium mt-0.5">{stat.label}</div>
+                    <div className="text-xs text-slate-500 font-bold mt-0.5">{stat.label}</div>
                   </div>
                 ))}
               </div>
@@ -119,7 +119,7 @@ export default function SaaSInteractiveSuite() {
                     </div>
                     <div>
                       <h4 className="text-xs font-bold text-slate-900">{f.title}</h4>
-                      <p className="text-xs text-slate-500 leading-normal mt-0.5">{f.description}</p>
+                      <p className="text-xs text-slate-500 leading-normal mt-0.5 font-normal">{f.description}</p>
                     </div>
                   </div>
                 ))}
@@ -129,14 +129,14 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-8 flex flex-wrap items-center gap-4">
               <a
                 href="#pricing-grid"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all hover:gap-3"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all hover:gap-3"
               >
                 <span>View Plans & Pricing</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 hover:border-slate-400 bg-slate-50 hover:bg-white text-slate-700 font-semibold text-sm transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 hover:border-slate-400 bg-slate-50 hover:bg-white text-slate-700 font-bold text-sm transition-all"
               >
                 <span>Request Custom Enterprise Demo</span>
               </a>
@@ -302,7 +302,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-semibold text-center block transition-all"
+                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-bold text-center block transition-all"
               >
                 Start 14-Day Free Trial
               </LinkButton>
@@ -344,7 +344,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold text-center block shadow-md shadow-blue-500/25 transition-all"
+                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold text-center block shadow-md shadow-blue-500/25 transition-all"
               >
                 Deploy Growth Plan
               </LinkButton>

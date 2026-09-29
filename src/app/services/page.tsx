@@ -41,12 +41,12 @@ export default function ServicesPage() {
       {/* 1. Services Hero */}
       <section className="bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80 pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-semibold text-blue-700 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-blue-700 shadow-xs">
             <span className="w-2 h-2 rounded-full bg-blue-600"></span>
             <span>Full-Lifecycle Technical Engineering</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.025em] max-w-4xl mx-auto leading-[1.14]">
             Technology Services for <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Growing Businesses
@@ -60,13 +60,13 @@ export default function ServicesPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               Discuss Your Project
             </Link>
             <a
               href="#services-index"
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
             >
               Browse 8 Core Services
             </a>
@@ -118,7 +118,7 @@ export default function ServicesPage() {
                       Service Domain
                     </span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-0.5">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-0.5">
                     {service.title}
                   </h2>
                 </div>
@@ -126,7 +126,7 @@ export default function ServicesPage() {
 
               <Link
                 href={`/contact?service=${service.id}`}
-                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all shrink-0 self-start md:self-auto"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all shrink-0 self-start md:self-auto"
               >
                 <span>{service.ctaText}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               </span>
               <Link
                 href={`/contact?service=${service.id}`}
-                className="text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center gap-1"
+                className="text-blue-600 hover:text-blue-700 font-bold inline-flex items-center gap-1"
               >
                 <span>Request a consultation for {service.title}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -226,16 +226,16 @@ export default function ServicesPage() {
       {/* 3. Bottom CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold tracking-[-0.025em]">
+          <h2 className="text-3xl font-bold tracking-[-0.02em]">
             Need a Combination of Services?
           </h2>
-          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">
             Most projects require a blend — such as UI/UX design followed by custom software engineering and cloud deployment. We configure cross-functional sprint teams tailored to your roadmap.
           </p>
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
             >
               <span>Schedule an Initial Discussion</span>
               <ArrowRight className="w-4 h-4" />

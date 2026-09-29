@@ -56,12 +56,12 @@ export default function CareersPage() {
       {/* 1. Hero Section */}
       <section className="bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80 pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-emerald-200 text-xs font-semibold text-emerald-800 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-emerald-200 text-xs font-bold text-emerald-800 shadow-xs">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             <span>{CAREERS_CONFIG.hero.badge}</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.025em] max-w-4xl mx-auto leading-[1.14]">
             {CAREERS_CONFIG.hero.headline}
           </h1>
 
@@ -72,7 +72,7 @@ export default function CareersPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <a
               href="#open-roles"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               View Open Positions
             </a>
@@ -81,7 +81,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>
@@ -92,10 +92,10 @@ export default function CareersPage() {
       {/* 2. WHY JOIN US Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Growth &amp; Culture
           </span>
-          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
             Why Join Us
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -127,10 +127,10 @@ export default function CareersPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 rounded-3xl border border-slate-200 p-8 sm:p-12">
           <div className="max-w-3xl mb-10">
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Candidate Profiles
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
               Who We Look For
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-normal">
@@ -159,10 +159,10 @@ export default function CareersPage() {
       {/* 4. HIRING PROCESS (01 - 05) */}
       <section id="process" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Transparent Evaluation
           </span>
-          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
             Our Hiring Process
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -196,10 +196,10 @@ export default function CareersPage() {
       <section id="open-roles" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 scroll-mt-28">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200 pb-6">
           <div>
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Current Openings
             </span>
-            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
               Open Positions
             </h2>
           </div>
@@ -208,7 +208,7 @@ export default function CareersPage() {
               setIsGeneralApplication(true);
               setSubmitted(false);
             }}
-            className="text-xs font-semibold text-blue-600 hover:underline inline-flex items-center gap-1"
+            className="text-xs font-bold text-blue-600 hover:underline inline-flex items-center gap-1"
           >
             <span>Don&apos;t see your profile? Submit General Application</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -224,10 +224,10 @@ export default function CareersPage() {
               >
                 <div className="space-y-3 max-w-3xl">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-blue-50 text-blue-700">
+                    <span className="text-xs font-bold px-2.5 py-0.5 rounded bg-blue-50 text-blue-700">
                       {role.category}
                     </span>
-                    <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">
+                    <span className="text-xs font-bold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">
                       {role.type}
                     </span>
                     <span className="text-xs text-slate-400 flex items-center gap-1 font-normal">
@@ -239,7 +239,7 @@ export default function CareersPage() {
                     {role.role}
                   </h3>
 
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     {role.summary}
                   </p>
 
@@ -257,7 +257,7 @@ export default function CareersPage() {
                       setIsGeneralApplication(false);
                       setSubmitted(false);
                     }}
-                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all active:scale-[0.98]"
+                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all active:scale-[0.98]"
                   >
                     Apply for Role
                   </button>
@@ -276,7 +276,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-xs transition-all"
+              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>
@@ -300,7 +300,7 @@ export default function CareersPage() {
             {!submitted ? (
               <div className="space-y-5">
                 <div>
-                  <span className="text-[11px] font-medium px-2.5 py-1 rounded bg-blue-50 text-blue-700">
+                  <span className="text-[11px] font-bold px-2.5 py-1 rounded bg-blue-50 text-blue-700">
                     Application Form
                   </span>
                   <h3 className="text-xl font-bold text-slate-900 mt-2">
@@ -313,7 +313,7 @@ export default function CareersPage() {
 
                 <form onSubmit={handleApply} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-medium text-slate-700 mb-1">
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
                       Full Name *
                     </label>
                     <input
@@ -328,7 +328,7 @@ export default function CareersPage() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                     <div>
-                      <label className="block text-xs font-medium text-slate-700 mb-1">
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
                         Email Address *
                       </label>
                       <input
@@ -341,7 +341,7 @@ export default function CareersPage() {
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-medium text-slate-700 mb-1">
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
                         Phone / WhatsApp *
                       </label>
                       <input
@@ -356,7 +356,7 @@ export default function CareersPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-700 mb-1">
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
                       GitHub Profile, Portfolio, or LinkedIn *
                     </label>
                     <input
@@ -370,7 +370,7 @@ export default function CareersPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-700 mb-1">
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
                       Current Status / Experience Level
                     </label>
                     <select
@@ -386,7 +386,7 @@ export default function CareersPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-700 mb-1">
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
                       Brief Note on What You&apos;ve Built &amp; Why You Want to Join
                     </label>
                     <textarea
@@ -400,7 +400,7 @@ export default function CareersPage() {
 
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition-all"
+                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-sm transition-all"
                   >
                     <span>Submit Application</span>
                     <Send className="w-4 h-4" />
@@ -427,7 +427,7 @@ export default function CareersPage() {
                 <div className="pt-2">
                   <button
                     onClick={closeModal}
-                    className="px-6 py-2.5 rounded-xl bg-slate-900 text-white font-semibold text-xs hover:bg-slate-800 transition-colors"
+                    className="px-6 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-slate-800 transition-colors"
                   >
                     Done
                   </button>

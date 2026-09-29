@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Quick Links Column */}
           <div className="space-y-3">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider">Quick Links</h4>
+            <h4 className="text-sm font-bold text-white uppercase tracking-wider">Quick Links</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -113,7 +113,7 @@ export default function Footer() {
 
           {/* Core Services Column */}
           <div className="space-y-3">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider">Services</h4>
+            <h4 className="text-sm font-bold text-white uppercase tracking-wider">Services</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
                 <Link href="/services#web-development" className="hover:text-white transition-colors">Web Development</Link>
@@ -144,12 +144,12 @@ export default function Footer() {
 
           {/* SaaS Products & Careers Column */}
           <div className="space-y-3">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider">Future Products &amp; Talent</h4>
+            <h4 className="text-sm font-bold text-white uppercase tracking-wider">Future Products &amp; Talent</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
                 <Link href="/products" className="hover:text-white transition-colors flex items-center gap-1.5">
                   <span>Product Roadmap</span>
-                  <span className="text-[10px] bg-blue-900/80 text-blue-300 px-1.5 py-0.5 rounded font-medium">In Dev</span>
+                  <span className="text-[10px] bg-blue-900/80 text-blue-300 px-1.5 py-0.5 rounded font-bold">In Dev</span>
                 </Link>
               </li>
               <li>
@@ -158,14 +158,14 @@ export default function Footer() {
               <li>
                 <Link href="/careers" className="hover:text-white transition-colors flex items-center gap-1.5">
                   <span>Careers &amp; Freshers</span>
-                  <span className="text-[10px] bg-emerald-900/80 text-emerald-300 px-1.5 py-0.5 rounded font-medium">Hiring</span>
+                  <span className="text-[10px] bg-emerald-900/80 text-emerald-300 px-1.5 py-0.5 rounded font-bold">Hiring</span>
                 </Link>
               </li>
               <li>
                 <Link href="/careers#process" className="hover:text-white transition-colors">Hiring Process</Link>
               </li>
               <li>
-                <Link href="/careers#roles" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1">
+                <Link href="/careers#roles" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1 font-bold">
                   <span>Open Positions</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>

@@ -47,12 +47,12 @@ export default function AboutPage() {
       {/* 1. Hero Section */}
       <section className="bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80 pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-semibold text-blue-700 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-blue-700 shadow-xs">
             <span className="w-2 h-2 rounded-full bg-blue-600"></span>
             <span>Our Foundation &amp; Philosophy</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.025em] max-w-4xl mx-auto leading-[1.14]">
             Building Technology Through <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Talent, Learning, and Execution
@@ -66,13 +66,13 @@ export default function AboutPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               Talk to Our Team
             </Link>
             <Link
               href="/careers"
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
             >
               Explore Career Pathways
             </Link>
@@ -84,10 +84,10 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-12">
           <div className="max-w-3xl mb-8">
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Core Belief
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
               How We Develop Capable Builders
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-normal">
@@ -104,7 +104,7 @@ export default function AboutPage() {
               { title: "Continuous Feedback", desc: "Regular sprint reviews and post-mortems focused on constant, measurable progress." },
             ].map((pillar, i) => (
               <div key={pillar.title} className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs space-y-2">
-                <span className="text-xs font-medium text-blue-600">0{i + 1}</span>
+                <span className="text-xs font-bold text-blue-600">0{i + 1}</span>
                 <h3 className="text-base font-bold text-slate-900">{pillar.title}</h3>
                 <p className="text-xs text-slate-600 leading-relaxed font-normal">{pillar.desc}</p>
               </div>
@@ -117,10 +117,10 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-5">
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Our Story
             </span>
-            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em]">
+            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em]">
               Bridging Practical Services with Product Innovation
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
@@ -141,7 +141,7 @@ export default function AboutPage() {
                   <Code2 className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-white">Client IT Services</h4>
+                  <h4 className="text-sm font-bold text-white">Client IT Services</h4>
                   <p className="text-xs text-slate-300 leading-relaxed mt-0.5 font-normal">
                     Engineering custom software, responsive web portals, and cloud infrastructure directly aligned with client operational goals.
                   </p>
@@ -153,7 +153,7 @@ export default function AboutPage() {
                   <Sparkles className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-white">Proprietary SaaS Labs</h4>
+                  <h4 className="text-sm font-bold text-white">Proprietary SaaS Labs</h4>
                   <p className="text-xs text-slate-300 leading-relaxed mt-0.5 font-normal">
                     Transforming common business pain points into scalable, in-development software products that make advanced automation accessible.
                   </p>
@@ -173,7 +173,7 @@ export default function AboutPage() {
             <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center">
               <Target className="w-6 h-6" />
             </div>
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600 block">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600 block">
               Our Mission
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
@@ -189,7 +189,7 @@ export default function AboutPage() {
             <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
               <Eye className="w-6 h-6" />
             </div>
-            <span className="text-xs font-medium uppercase tracking-wider text-indigo-600 block">
+            <span className="text-xs font-bold uppercase tracking-wider text-indigo-600 block">
               Our Vision
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
@@ -206,10 +206,10 @@ export default function AboutPage() {
       {/* 5. Our Values */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Guiding Principles
           </span>
-          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
             Our Core Values
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -241,10 +241,10 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 rounded-3xl border border-slate-200 p-8 sm:p-12">
           <div className="max-w-3xl mb-8">
-            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Team &amp; Leadership
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
               Engineers, Mentors, and Builders
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-normal">
@@ -263,7 +263,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="text-base font-bold text-slate-900">{team.role}</h3>
-                  <div className="text-xs text-blue-600 font-semibold">{team.focus}</div>
+                  <div className="text-xs text-blue-600 font-bold">{team.focus}</div>
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed font-normal">
                   {team.desc}
@@ -277,23 +277,23 @@ export default function AboutPage() {
       {/* 7. Bottom CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold tracking-[-0.025em]">
+          <h2 className="text-3xl font-bold tracking-[-0.02em]">
             Ready to Partner With Us?
           </h2>
-          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">
             Whether you are looking to build a new digital tool or join our growing technology team, we would love to connect.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
             >
               <span>Discuss a Project</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
               href="/careers"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm border border-slate-700 transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm border border-slate-700 transition-all"
             >
               <span>Explore Careers</span>
             </Link>
