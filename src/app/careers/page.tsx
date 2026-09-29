@@ -61,18 +61,18 @@ export default function CareersPage() {
             <span>{CAREERS_CONFIG.hero.badge}</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight max-w-4xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
             {CAREERS_CONFIG.hero.headline}
           </h1>
 
-          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg font-normal text-slate-600 max-w-2xl mx-auto leading-relaxed">
             {CAREERS_CONFIG.hero.supportingText}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <a
               href="#open-roles"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               View Open Positions
             </a>
@@ -81,7 +81,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>

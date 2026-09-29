@@ -47,11 +47,11 @@ export default function ProductsPage() {
             <span>Product Innovation Labs</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight max-w-4xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
             {PRODUCTS_CONFIG.hero.headline}
           </h1>
 
-          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg font-normal text-slate-600 max-w-2xl mx-auto leading-relaxed">
             {PRODUCTS_CONFIG.hero.supportingText}
           </p>
 
@@ -314,7 +314,7 @@ export default function ProductsPage() {
           <div className="pt-2">
             <Link
               href="/services#custom-software"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-xs transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-xs transition-all"
             >
               <span>Explore Custom Software Services</span>
               <ArrowRight className="w-4 h-4" />

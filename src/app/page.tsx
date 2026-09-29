@@ -68,7 +68,7 @@ export default function HomePage() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-[62px] font-black text-slate-900 tracking-tight leading-[1.14]">
+            <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-[800] text-slate-900 tracking-[-0.035em] leading-[1.12]">
               Technology That Moves <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800">
                 Your Business Forward
@@ -76,7 +76,7 @@ export default function HomePage() {
             </h1>
 
             {/* Supporting Message */}
-            <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl font-normal text-slate-600 leading-relaxed max-w-3xl mx-auto">
               {COMPANY_INFO.supportingMessage}
             </p>
 
@@ -84,7 +84,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-3 w-full sm:w-auto">
               <Link
                 href="/contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
               >
                 <span>Talk to Us</span>
                 <ArrowRight className="w-4 h-4" />
@@ -92,7 +92,7 @@ export default function HomePage() {
 
               <Link
                 href="/services"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
               >
                 <span>Explore Services</span>
               </Link>
@@ -441,7 +441,7 @@ export default function HomePage() {
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
             >
               <span>Start a Conversation</span>
               <ArrowRight className="w-4 h-4" />

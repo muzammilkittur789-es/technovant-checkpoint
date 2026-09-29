@@ -29,14 +29,14 @@ export default function ContactPage() {
             <span>Direct Engineering Consultation</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight max-w-4xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-[800] text-slate-900 tracking-[-0.03em] max-w-4xl mx-auto leading-[1.14]">
             Let&apos;s Build <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Something Useful
             </span>
           </h1>
 
-          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg font-normal text-slate-600 max-w-2xl mx-auto leading-relaxed">
             Whether you need a new website, custom software application, workflow automation, or a dependable technology partner, we are ready to listen and assist.
           </p>
         </div>
