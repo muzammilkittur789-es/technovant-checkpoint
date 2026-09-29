@@ -105,7 +105,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedRole }: Appl
             <span>Technovant Internship Academy &bull; Cohort Application</span>
           </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-white">
+          <h2 className="text-xl md:text-2xl font-extrabold text-white">
             {isSubmitted ? "Application Received!" : "Apply for Technovant Internship"}
           </h2>
           <p className="text-xs md:text-sm text-blue-100/90 mt-1">
@@ -170,7 +170,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedRole }: Appl
             <form onSubmit={handleSubmit} className="space-y-5">
               {/* Role Selector */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
                   Select Role & Department
                 </label>
                 <select

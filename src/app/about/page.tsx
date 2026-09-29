@@ -120,7 +120,7 @@ export default function AboutPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Our Story
             </span>
-            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em]">
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-[-0.02em]">
               Bridging Practical Services with Product Innovation
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
@@ -244,7 +244,7 @@ export default function AboutPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Team &amp; Leadership
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
               Engineers, Mentors, and Builders
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-normal">
@@ -277,7 +277,7 @@ export default function AboutPage() {
       {/* 7. Bottom CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold tracking-[-0.02em]">
+          <h2 className="text-3xl font-extrabold tracking-[-0.02em]">
             Ready to Partner With Us?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">

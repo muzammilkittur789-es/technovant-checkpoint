@@ -118,7 +118,7 @@ export default function ServicesPage() {
                       Service Domain
                     </span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-0.5">
+                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-0.5">
                     {service.title}
                   </h2>
                 </div>
@@ -226,7 +226,7 @@ export default function ServicesPage() {
       {/* 3. Bottom CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold tracking-[-0.02em]">
+          <h2 className="text-3xl font-extrabold tracking-[-0.02em]">
             Need a Combination of Services?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">

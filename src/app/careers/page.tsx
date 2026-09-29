@@ -95,7 +95,7 @@ export default function CareersPage() {
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Growth &amp; Culture
           </span>
-          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+          <h2 className="text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
             Why Join Us
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -130,7 +130,7 @@ export default function CareersPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Candidate Profiles
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
               Who We Look For
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-normal">
@@ -162,7 +162,7 @@ export default function CareersPage() {
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Transparent Evaluation
           </span>
-          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+          <h2 className="text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
             Our Hiring Process
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -199,7 +199,7 @@ export default function CareersPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Current Openings
             </span>
-            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
               Open Positions
             </h2>
           </div>
@@ -418,7 +418,7 @@ export default function CareersPage() {
                 <p className="text-sm text-slate-600 max-w-sm mx-auto font-normal">
                   Thank you, <strong>{formData.name}</strong>. Your application has been logged under reference code:
                 </p>
-                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-blue-700 font-mono">
+                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-semibold text-blue-700">
                   {applicationRef}
                 </div>
                 <p className="text-xs text-slate-500 max-w-sm mx-auto font-normal">

@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-heading: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-sans: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-mono: var(--font-geist-mono), monospace;
+  --font-heading: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 :root {
@@ -25,7 +24,7 @@ html {
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -33,60 +32,71 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Primary Heading System: Plus Jakarta Sans */
+/* Primary Heading System: Inter */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Hero H1: 800 ExtraBold - Confident, ultra-modern, crisp, tightly tracked */
+/* Hero H1: 800 ExtraBold - Dominant, modern, clean, tightly tracked */
 h1 {
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.12;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
 }
 
-/* Major Headings: 700 Bold */
+/* Major Headings: 800 ExtraBold */
 h2 {
-  font-weight: 700;
-  letter-spacing: -0.025em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
-/* Section Headings: 700 */
+/* Section Headings: 700 Bold */
 h3 {
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   line-height: 1.25;
 }
 
-/* Card Headings: 600 SemiBold */
+/* Card Headings: 700 Bold */
 h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.3;
 }
 
-/* Body Text & Form Elements: Plus Jakarta Sans 400 */
+/* Body Text & Form Elements: Rubik 400 */
 p, input, textarea, select {
-  font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400;
 }
 
-/* Navigation Links: Plus Jakarta Sans 500 / 600 */
+/* Supporting Text: Rubik 400 */
+small, .text-muted-foreground, .text-slate-500, .text-slate-600 {
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Navigation Links: Rubik 500 */
 nav a {
-  font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 500;
 }
 
-/* Buttons: Plus Jakarta Sans 600 SemiBold */
+/* Buttons: Rubik 500-600 */
 button, [role="button"], a.btn {
-  font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 600;
 }
 
-/* Technical Badges, Code & Telemetry: Geist Mono */
+/* Labels: Rubik 500-600 */
+label, .font-label {
+  font-family: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 500;
+}
+
+/* Telemetry & Technical Details: Rubik (No other fonts used) */
 .font-mono, code, kbd, samp, pre {
-  font-family: var(--font-geist-mono), monospace;
+  font-family: var(--font-rubik), monospace;
   font-weight: 500;
   letter-spacing: -0.01em;
 }

@@ -244,7 +244,7 @@ export default function SaaSInteractiveSuite() {
           <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200 mt-2">
             <button
               onClick={() => setBillingCycle("monthly")}
-              className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 billingCycle === "monthly"
                   ? "bg-white text-slate-900 shadow-xs"
                   : "text-slate-600 hover:text-slate-900"
@@ -254,7 +254,7 @@ export default function SaaSInteractiveSuite() {
             </button>
             <button
               onClick={() => setBillingCycle("annual")}
-              className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
                 billingCycle === "annual"
                   ? "bg-white text-blue-700 shadow-xs"
                   : "text-slate-600 hover:text-slate-900"
@@ -302,7 +302,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-bold text-center block transition-all"
+                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-semibold text-center block transition-all"
               >
                 Start 14-Day Free Trial
               </LinkButton>

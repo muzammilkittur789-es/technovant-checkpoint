@@ -123,7 +123,7 @@ export default function HomePage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Why Work With Us
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
               Built for Modern Business
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
@@ -161,7 +161,7 @@ export default function HomePage() {
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Our Core Capabilities
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.02em]">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-[-0.02em]">
             Technology Services Built Around Your Business
           </h2>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
@@ -219,7 +219,7 @@ export default function HomePage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
               Execution Methodology
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] mt-1">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-[-0.02em] mt-1">
               From Idea to Implementation
             </h2>
             <p className="text-sm sm:text-base text-slate-300 mt-2 font-normal">
@@ -278,7 +278,7 @@ export default function HomePage() {
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
             Pragmatic Engineering
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.02em]">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-[-0.02em]">
             Technology Without Unnecessary Complexity
           </h2>
           <p className="text-sm sm:text-base text-slate-600 font-normal">
@@ -315,7 +315,7 @@ export default function HomePage() {
               <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
                 Business-First Architecture
               </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-[-0.02em]">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-[-0.02em]">
                 Solutions for Different Business Needs
               </h2>
               <p className="text-sm text-slate-600 font-normal">
@@ -379,7 +379,7 @@ export default function HomePage() {
               <span>{PRODUCTS_CONFIG.hero.badge}</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-[-0.02em] text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] text-white leading-tight">
               {PRODUCTS_CONFIG.visionStatement.title}
             </h2>
 
@@ -430,7 +430,7 @@ export default function HomePage() {
             Let&apos;s Collaborate
           </span>
 
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.02em]">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-[-0.02em]">
             Have a Technology Idea?
           </h2>
 

@@ -52,7 +52,7 @@ export default function ContactPage() {
               <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
                 Direct Communication
               </span>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em]">
                 Reach Out to Our Team
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed font-normal">

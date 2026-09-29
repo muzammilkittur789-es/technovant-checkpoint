@@ -88,7 +88,7 @@ export default function ContactConsultationForm() {
           {/* 1. Name & Work Email */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1.5">
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                 Your Name *
               </label>
               <input
@@ -102,7 +102,7 @@ export default function ContactConsultationForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1.5">
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                 Work Email *
               </label>
               <input
@@ -119,7 +119,7 @@ export default function ContactConsultationForm() {
           {/* 2. Company & Phone */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1.5">
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                 Company Name *
               </label>
               <input
@@ -133,7 +133,7 @@ export default function ContactConsultationForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1.5">
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                 Phone Number
               </label>
               <input
@@ -148,7 +148,7 @@ export default function ContactConsultationForm() {
 
           {/* 3. What do you need? */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1.5">
+            <label className="block text-xs font-semibold text-slate-700 mb-1.5">
               What do you need? *
             </label>
             <select
@@ -171,7 +171,7 @@ export default function ContactConsultationForm() {
 
           {/* 4. Project details */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1.5">
+            <label className="block text-xs font-semibold text-slate-700 mb-1.5">
               Project Details &amp; Objectives *
             </label>
             <textarea

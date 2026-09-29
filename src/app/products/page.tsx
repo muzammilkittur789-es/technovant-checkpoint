@@ -69,7 +69,7 @@ export default function ProductsPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
               Our Product Philosophy
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-[-0.02em]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-[-0.02em]">
               {PRODUCTS_CONFIG.visionStatement.title}
             </h2>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
@@ -97,7 +97,7 @@ export default function ProductsPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
               Upcoming Software Suite
             </span>
-            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.02em] mt-1">
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-[-0.02em] mt-1">
               Products in Development
             </h2>
           </div>
@@ -305,7 +305,7 @@ export default function ProductsPage() {
       {/* 5. Custom Software Consultation Callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-5">
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.02em]">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-[-0.02em]">
             Need a Private Solution Built Right Now?
           </h2>
           <p className="text-sm text-slate-600 max-w-xl mx-auto leading-relaxed font-normal">
