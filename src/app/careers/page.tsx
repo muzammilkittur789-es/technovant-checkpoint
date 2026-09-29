@@ -72,7 +72,7 @@ export default function CareersPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <a
               href="#open-roles"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               View Open Positions
             </a>
@@ -81,7 +81,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>
@@ -208,7 +208,7 @@ export default function CareersPage() {
               setIsGeneralApplication(true);
               setSubmitted(false);
             }}
-            className="text-xs font-bold text-blue-600 hover:underline inline-flex items-center gap-1"
+            className="text-xs font-semibold text-blue-600 hover:underline inline-flex items-center gap-1"
           >
             <span>Don&apos;t see your profile? Submit General Application</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -257,7 +257,7 @@ export default function CareersPage() {
                       setIsGeneralApplication(false);
                       setSubmitted(false);
                     }}
-                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all active:scale-[0.98]"
+                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all active:scale-[0.98]"
                   >
                     Apply for Role
                   </button>
@@ -276,7 +276,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>
@@ -400,7 +400,7 @@ export default function CareersPage() {
 
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-sm transition-all"
+                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition-all"
                   >
                     <span>Submit Application</span>
                     <Send className="w-4 h-4" />
@@ -418,7 +418,7 @@ export default function CareersPage() {
                 <p className="text-sm text-slate-600 max-w-sm mx-auto font-normal">
                   Thank you, <strong>{formData.name}</strong>. Your application has been logged under reference code:
                 </p>
-                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-blue-700">
+                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-blue-700 font-mono">
                   {applicationRef}
                 </div>
                 <p className="text-xs text-slate-500 max-w-sm mx-auto font-normal">
@@ -427,7 +427,7 @@ export default function CareersPage() {
                 <div className="pt-2">
                   <button
                     onClick={closeModal}
-                    className="px-6 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-slate-800 transition-colors"
+                    className="px-6 py-2.5 rounded-xl bg-slate-900 text-white font-semibold text-xs hover:bg-slate-800 transition-colors"
                   >
                     Done
                   </button>

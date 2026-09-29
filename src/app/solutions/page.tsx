@@ -57,13 +57,13 @@ export default function SolutionsPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               Discuss Your Challenge
             </Link>
             <a
               href="#solutions-list"
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
             >
               Explore 7 Solution Areas
             </a>
@@ -103,7 +103,7 @@ export default function SolutionsPage() {
 
               <Link
                 href={`/contact?solution=${solution.id}`}
-                className="inline-flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-700"
+                className="inline-flex items-center gap-2 text-xs font-semibold text-blue-600 hover:text-blue-700"
               >
                 <span>Request Solution Blueprint</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -196,7 +196,7 @@ export default function SolutionsPage() {
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
             >
               <span>Schedule an Engineering Discovery Call</span>
               <ArrowRight className="w-4 h-4" />

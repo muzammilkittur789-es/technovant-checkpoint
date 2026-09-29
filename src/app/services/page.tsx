@@ -60,13 +60,13 @@ export default function ServicesPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all"
+              className="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all"
             >
               Discuss Your Project
             </Link>
             <a
               href="#services-index"
-              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
             >
               Browse 8 Core Services
             </a>
@@ -126,7 +126,7 @@ export default function ServicesPage() {
 
               <Link
                 href={`/contact?service=${service.id}`}
-                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all shrink-0 self-start md:self-auto"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all shrink-0 self-start md:self-auto"
               >
                 <span>{service.ctaText}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               </span>
               <Link
                 href={`/contact?service=${service.id}`}
-                className="text-blue-600 hover:text-blue-700 font-bold inline-flex items-center gap-1"
+                className="text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center gap-1"
               >
                 <span>Request a consultation for {service.title}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -235,7 +235,7 @@ export default function ServicesPage() {
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
             >
               <span>Schedule an Initial Discussion</span>
               <ArrowRight className="w-4 h-4" />

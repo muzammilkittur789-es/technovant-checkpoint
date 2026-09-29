@@ -179,7 +179,7 @@ export default function ProductsPage() {
                     setEmailInput("");
                     setCompanyInput("");
                   }}
-                  className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all active:scale-[0.98]"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all active:scale-[0.98]"
                 >
                   <span>Request Early Access</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -192,7 +192,7 @@ export default function ProductsPage() {
                     setEmailInput("");
                     setCompanyInput("");
                   }}
-                  className="px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition-colors"
+                  className="px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs transition-colors"
                 >
                   Details
                 </button>
@@ -265,7 +265,7 @@ export default function ProductsPage() {
 
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-sm transition-all"
+                    className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition-all"
                   >
                     <span>Join Early Access List</span>
                     <Send className="w-3.5 h-3.5" />
@@ -290,7 +290,7 @@ export default function ProductsPage() {
                 <div className="pt-2">
                   <button
                     onClick={() => setSelectedProduct(null)}
-                    className="px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-slate-800 transition-colors"
+                    className="px-5 py-2.5 rounded-xl bg-slate-900 text-white font-semibold text-xs hover:bg-slate-800 transition-colors"
                   >
                     Close
                   </button>
@@ -314,7 +314,7 @@ export default function ProductsPage() {
           <div className="pt-2">
             <Link
               href="/services#custom-software"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-xs transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-xs transition-all"
             >
               <span>Explore Custom Software Services</span>
               <ArrowRight className="w-4 h-4" />

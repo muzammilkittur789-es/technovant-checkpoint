@@ -68,7 +68,7 @@ export default function HomePage() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-[800] text-slate-900 tracking-[-0.025em] leading-[1.12]">
+            <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-[800] text-slate-900 tracking-[-0.03em] leading-[1.12]">
               Technology That Moves <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800">
                 Your Business Forward
@@ -84,7 +84,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-3 w-full sm:w-auto">
               <Link
                 href="/contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
               >
                 <span>Talk to Us</span>
                 <ArrowRight className="w-4 h-4" />
@@ -92,7 +92,7 @@ export default function HomePage() {
 
               <Link
                 href="/services"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold text-sm shadow-xs transition-all"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm shadow-xs transition-all"
               >
                 <span>Explore Services</span>
               </Link>
@@ -190,7 +190,7 @@ export default function HomePage() {
               <div className="pt-6 border-t border-slate-100 mt-6">
                 <Link
                   href={`/services#${service.id}`}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 group-hover:text-blue-700 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 group-hover:text-blue-700 transition-colors"
                 >
                   <span>Learn Details</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -203,7 +203,7 @@ export default function HomePage() {
         <div className="text-center pt-8">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors"
           >
             <span>View Full Service Scope &amp; Tech Stack</span>
             <ArrowRight className="w-4 h-4" />
@@ -325,7 +325,7 @@ export default function HomePage() {
 
             <Link
               href="/solutions"
-              className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors shrink-0"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors shrink-0"
             >
               <span>Explore All Solutions</span>
               <ArrowRight className="w-4 h-4" />
@@ -356,7 +356,7 @@ export default function HomePage() {
                 <div className="pt-5 border-t border-slate-100 mt-5">
                   <Link
                     href={`/solutions#${sol.id}`}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:underline"
+                    className="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:underline"
                   >
                     <span>Read Business Solution</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -390,7 +390,7 @@ export default function HomePage() {
             <div className="pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <Link
                 href="/products"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
               >
                 <span>Explore Our Products</span>
                 <ArrowRight className="w-4 h-4" />
@@ -441,7 +441,7 @@ export default function HomePage() {
           <div className="pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg transition-all active:scale-[0.98]"
             >
               <span>Start a Conversation</span>
               <ArrowRight className="w-4 h-4" />

@@ -43,7 +43,7 @@ export default function SaaSInteractiveSuite() {
             <button
               key={product.id}
               onClick={() => setSelectedProductIndex(idx)}
-              className={`flex items-center gap-3 px-5 py-3 rounded-xl border text-sm font-bold transition-all ${
+              className={`flex items-center gap-3 px-5 py-3 rounded-xl border text-sm font-semibold transition-all ${
                 isSelected
                   ? "bg-white border-blue-600 text-blue-700 shadow-lg shadow-blue-500/10 ring-2 ring-blue-600/20"
                   : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-white hover:border-slate-300"
@@ -129,14 +129,14 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-8 flex flex-wrap items-center gap-4">
               <a
                 href="#pricing-grid"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition-all hover:gap-3"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all hover:gap-3"
               >
                 <span>View Plans & Pricing</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 hover:border-slate-400 bg-slate-50 hover:bg-white text-slate-700 font-bold text-sm transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 hover:border-slate-400 bg-slate-50 hover:bg-white text-slate-700 font-semibold text-sm transition-all"
               >
                 <span>Request Custom Enterprise Demo</span>
               </a>
@@ -344,7 +344,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold text-center block shadow-md shadow-blue-500/25 transition-all"
+                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold text-center block shadow-md shadow-blue-500/25 transition-all"
               >
                 Deploy Growth Plan
               </LinkButton>
@@ -377,7 +377,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold text-center block transition-all"
+                className="w-full py-2.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold text-center block transition-all"
               >
                 Contact Sales for Custom Quote
               </LinkButton>

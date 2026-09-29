@@ -165,7 +165,7 @@ export default function Footer() {
                 <Link href="/careers#process" className="hover:text-white transition-colors">Hiring Process</Link>
               </li>
               <li>
-                <Link href="/careers#roles" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1 font-bold">
+                <Link href="/careers#roles" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1 font-semibold">
                   <span>Open Positions</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
