@@ -84,13 +84,13 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-12">
           <div className="max-w-3xl mb-8">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Core Belief
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
               How We Develop Capable Builders
             </h2>
-            <p className="text-sm text-slate-600 mt-2">
+            <p className="text-sm text-slate-600 mt-2 font-normal">
               We do not treat engineering as theoretical. We develop high-performing technology teams by providing a proven, supportive framework:
             </p>
           </div>
@@ -104,9 +104,9 @@ export default function AboutPage() {
               { title: "Continuous Feedback", desc: "Regular sprint reviews and post-mortems focused on constant, measurable progress." },
             ].map((pillar, i) => (
               <div key={pillar.title} className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs space-y-2">
-                <span className="text-xs font-mono font-bold text-blue-600">0{i + 1}</span>
+                <span className="text-xs font-medium text-blue-600">0{i + 1}</span>
                 <h3 className="text-base font-bold text-slate-900">{pillar.title}</h3>
-                <p className="text-xs text-slate-600 leading-relaxed">{pillar.desc}</p>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">{pillar.desc}</p>
               </div>
             ))}
           </div>
@@ -117,16 +117,16 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-5">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Our Story
             </span>
-            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em]">
               Bridging Practical Services with Product Innovation
             </h2>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
               {COMPANY_INFO.name} was established with a dual conviction: that businesses deserve practical, cost-effective digital solutions without excessive overhead, and that emerging technology talent thrives when immersed in genuine, project-based engineering.
             </p>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
               By combining disciplined technical mentorship with modern technology stacks, our young, adaptable team delivers reliable web platforms, mobile utilities, and custom software systems. As we solve recurring operational bottlenecks for our clients, we channel these practical insights into developing our own proprietary SaaS tools.
             </p>
           </div>
@@ -141,8 +141,8 @@ export default function AboutPage() {
                   <Code2 className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white">Client IT Services</h4>
-                  <p className="text-xs text-slate-300 leading-relaxed mt-0.5">
+                  <h4 className="text-sm font-semibold text-white">Client IT Services</h4>
+                  <p className="text-xs text-slate-300 leading-relaxed mt-0.5 font-normal">
                     Engineering custom software, responsive web portals, and cloud infrastructure directly aligned with client operational goals.
                   </p>
                 </div>
@@ -153,8 +153,8 @@ export default function AboutPage() {
                   <Sparkles className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white">Proprietary SaaS Labs</h4>
-                  <p className="text-xs text-slate-300 leading-relaxed mt-0.5">
+                  <h4 className="text-sm font-semibold text-white">Proprietary SaaS Labs</h4>
+                  <p className="text-xs text-slate-300 leading-relaxed mt-0.5 font-normal">
                     Transforming common business pain points into scalable, in-development software products that make advanced automation accessible.
                   </p>
                 </div>
@@ -173,13 +173,13 @@ export default function AboutPage() {
             <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center">
               <Target className="w-6 h-6" />
             </div>
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600 block">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600 block">
               Our Mission
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Accessible Technology &bull; Real-World Opportunity
             </h3>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
               &ldquo;{COMPANY_INFO.mission}&rdquo;
             </p>
           </div>
@@ -189,13 +189,13 @@ export default function AboutPage() {
             <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
               <Eye className="w-6 h-6" />
             </div>
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-indigo-600 block">
+            <span className="text-xs font-medium uppercase tracking-wider text-indigo-600 block">
               Our Vision
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Sustainable Services &bull; Scalable Software Products
             </h3>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
               &ldquo;{COMPANY_INFO.vision}&rdquo;
             </p>
           </div>
@@ -206,13 +206,13 @@ export default function AboutPage() {
       {/* 5. Our Values */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Guiding Principles
           </span>
-          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
             Our Core Values
           </h2>
-          <p className="text-sm sm:text-base text-slate-600 mt-2">
+          <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
             The values that shape every codebase we build, every client interaction, and every engineer we develop.
           </p>
         </div>
@@ -229,7 +229,7 @@ export default function AboutPage() {
                   {val.title}
                 </h3>
               </div>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7 font-normal">
                 {val.description}
               </p>
             </div>
@@ -241,13 +241,13 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 rounded-3xl border border-slate-200 p-8 sm:p-12">
           <div className="max-w-3xl mb-8">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Team &amp; Leadership
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
               Engineers, Mentors, and Builders
             </h2>
-            <p className="text-sm text-slate-600 mt-2">
+            <p className="text-sm text-slate-600 mt-2 font-normal">
               Our team combines experienced technical leadership with a vibrant, ambitious group of emerging software engineers, designers, and systems architects.
             </p>
           </div>
@@ -263,9 +263,9 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="text-base font-bold text-slate-900">{team.role}</h3>
-                  <div className="text-xs font-mono text-blue-600 font-semibold">{team.focus}</div>
+                  <div className="text-xs text-blue-600 font-semibold">{team.focus}</div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
                   {team.desc}
                 </p>
               </div>
@@ -277,7 +277,7 @@ export default function AboutPage() {
       {/* 7. Bottom CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-extrabold tracking-tight">
+          <h2 className="text-3xl font-bold tracking-[-0.025em]">
             Ready to Partner With Us?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">

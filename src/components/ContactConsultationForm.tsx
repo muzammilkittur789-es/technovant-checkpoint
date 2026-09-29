@@ -47,7 +47,7 @@ export default function ContactConsultationForm() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 max-w-sm mx-auto text-left text-xs space-y-2">
             <div className="flex justify-between text-slate-500">
               <span>Reference Number:</span>
-              <span className="font-mono font-bold text-blue-600">{refNumber}</span>
+              <span className="font-bold text-blue-600">{refNumber}</span>
             </div>
             <div className="flex justify-between text-slate-500">
               <span>Selected Scope:</span>

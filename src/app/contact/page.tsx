@@ -49,13 +49,13 @@ export default function ContactPage() {
           {/* Left Column: Contact Info & Value Commitments (5 cols) */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-3">
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+              <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
                 Direct Communication
               </span>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em]">
                 Reach Out to Our Team
               </h2>
-              <p className="text-sm text-slate-600 leading-relaxed">
+              <p className="text-sm text-slate-600 leading-relaxed font-normal">
                 We respect your time. When you message us, you speak directly with technical builders who understand architecture, scope, and delivery.
               </p>
             </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
                     Email Inquiries
                   </div>
                   <a
@@ -76,7 +76,7 @@ export default function ContactPage() {
                   >
                     {COMPANY_INFO.contact.email}
                   </a>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <p className="text-xs text-slate-500 mt-0.5 font-normal">
                     For project RFPs, technology discovery, and general questions.
                   </p>
                 </div>
@@ -87,13 +87,13 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
                     Phone &amp; Direct Voice
                   </div>
                   <div className="text-base font-bold text-slate-900">
                     {COMPANY_INFO.contact.phone}
                   </div>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <p className="text-xs text-slate-500 mt-0.5 font-normal">
                     Monday to Friday, 9:00 AM – 6:00 PM IST / PST.
                   </p>
                 </div>
@@ -104,13 +104,13 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
+                  <div className="text-xs font-medium uppercase tracking-wider text-slate-500">
                     Office Hubs
                   </div>
                   <div className="text-sm font-bold text-slate-900">
                     {COMPANY_INFO.contact.address}
                   </div>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <p className="text-xs text-slate-500 mt-0.5 font-normal">
                     Available for in-person project kickoff workshops by appointment.
                   </p>
                 </div>
@@ -119,7 +119,7 @@ export default function ContactPage() {
 
             {/* Official Social Links */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 block">
+              <span className="text-xs font-medium uppercase tracking-wider text-slate-500 block">
                 Official Channels:
               </span>
               <div className="flex items-center gap-4 text-xs font-semibold">

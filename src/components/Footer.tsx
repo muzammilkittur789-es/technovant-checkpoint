@@ -149,7 +149,7 @@ export default function Footer() {
               <li>
                 <Link href="/products" className="hover:text-white transition-colors flex items-center gap-1.5">
                   <span>Product Roadmap</span>
-                  <span className="text-[10px] bg-blue-900/80 text-blue-300 px-1.5 py-0.5 rounded font-mono">In Dev</span>
+                  <span className="text-[10px] bg-blue-900/80 text-blue-300 px-1.5 py-0.5 rounded font-medium">In Dev</span>
                 </Link>
               </li>
               <li>
@@ -158,7 +158,7 @@ export default function Footer() {
               <li>
                 <Link href="/careers" className="hover:text-white transition-colors flex items-center gap-1.5">
                   <span>Careers &amp; Freshers</span>
-                  <span className="text-[10px] bg-emerald-900/80 text-emerald-300 px-1.5 py-0.5 rounded font-mono">Hiring</span>
+                  <span className="text-[10px] bg-emerald-900/80 text-emerald-300 px-1.5 py-0.5 rounded font-medium">Hiring</span>
                 </Link>
               </li>
               <li>

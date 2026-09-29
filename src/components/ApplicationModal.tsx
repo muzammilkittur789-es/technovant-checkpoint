@@ -136,7 +136,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedRole }: Appl
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 max-w-md mx-auto text-left space-y-3">
                 <div className="flex items-center justify-between text-xs text-slate-500 border-b border-slate-200 pb-2">
                   <span>Candidate Ref ID</span>
-                  <span className="font-mono font-bold text-blue-600 text-sm">{applicationRef}</span>
+                  <span className="font-bold text-blue-600 text-sm">{applicationRef}</span>
                 </div>
                 <div className="flex items-center justify-between text-xs text-slate-600">
                   <span>Track Assigned</span>

@@ -57,12 +57,12 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-6">
             
             {/* Pill Badge */}
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-slate-200 shadow-xs text-xs font-semibold text-slate-800 backdrop-blur-md">
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-slate-200 shadow-xs text-xs font-medium text-slate-800 backdrop-blur-md">
               <span className="flex h-2 w-2 relative">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
               </span>
-              <span className="text-slate-500 font-mono text-[11px] uppercase tracking-wider">IT Services &amp; SaaS Labs</span>
+              <span className="text-slate-500 font-medium text-[11px] uppercase tracking-wider">IT Services &amp; SaaS Labs</span>
               <span className="text-slate-300">|</span>
               <span className="text-blue-700">Practical &bull; Scalable &bull; Reliable</span>
             </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
             </div>
 
             {/* Value Highlights */}
-            <div className="pt-6 flex flex-wrap items-center justify-center gap-y-2 gap-x-8 text-xs font-semibold text-slate-500">
+            <div className="pt-6 flex flex-wrap items-center justify-center gap-y-2 gap-x-8 text-xs font-medium text-slate-500">
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" /> Young &amp; Adaptable Tech Team
               </span>
@@ -120,10 +120,10 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50/70 rounded-3xl border border-slate-200/80 p-8 sm:p-12">
           <div className="max-w-2xl mb-8">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Why Work With Us
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
               Built for Modern Business
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2">
@@ -138,7 +138,7 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-slate-200/80 p-6 shadow-xs hover:border-blue-300 hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div className="space-y-3">
-                  <span className="text-[11px] font-mono font-semibold px-2.5 py-1 rounded-md bg-blue-50 text-blue-700">
+                  <span className="text-[11px] font-medium px-2.5 py-1 rounded-md bg-blue-50 text-blue-700">
                     {pillar.badge}
                   </span>
                   <h3 className="text-lg font-bold text-slate-900 pt-1">
@@ -158,10 +158,10 @@ export default function HomePage() {
       {/* 3. SECTION: WHAT WE DO */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Our Core Capabilities
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.025em]">
             Technology Services Built Around Your Business
           </h2>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
@@ -190,7 +190,7 @@ export default function HomePage() {
               <div className="pt-6 border-t border-slate-100 mt-6">
                 <Link
                   href={`/services#${service.id}`}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 group-hover:text-blue-700 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 group-hover:text-blue-700 transition-colors"
                 >
                   <span>Learn Details</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -216,10 +216,10 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 lg:p-16 border border-slate-800 shadow-xl">
           <div className="max-w-3xl mb-12">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-400">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-400">
               Execution Methodology
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-1">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.025em] mt-1">
               From Idea to Implementation
             </h2>
             <p className="text-sm sm:text-base text-slate-300 mt-2">
@@ -235,10 +235,10 @@ export default function HomePage() {
               >
                 <div>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-black font-mono text-blue-400">
+                    <span className="text-2xl font-bold text-blue-400">
                       {step.step}
                     </span>
-                    <span className="text-[11px] font-mono uppercase tracking-wider text-slate-400">
+                    <span className="text-[11px] font-medium uppercase tracking-wider text-slate-400">
                       Phase
                     </span>
                   </div>
@@ -253,7 +253,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="pt-4 border-t border-slate-700">
-                  <div className="text-[11px] uppercase tracking-wider text-slate-400 font-mono mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-slate-400 font-medium mb-2">
                     Key Deliverables:
                   </div>
                   <ul className="space-y-1.5 text-xs text-slate-300">
@@ -275,10 +275,10 @@ export default function HomePage() {
       {/* 5. SECTION: WHY CHOOSE US */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center space-y-3 mb-12">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Pragmatic Engineering
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.025em]">
             Technology Without Unnecessary Complexity
           </h2>
           <p className="text-sm sm:text-base text-slate-600">
@@ -312,10 +312,10 @@ export default function HomePage() {
         <div className="bg-slate-50/80 rounded-3xl border border-slate-200 p-8 sm:p-12 lg:p-14">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
             <div className="max-w-2xl space-y-2">
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+              <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
                 Business-First Architecture
               </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-[-0.025em]">
                 Solutions for Different Business Needs
               </h2>
               <p className="text-sm text-slate-600">
@@ -325,7 +325,7 @@ export default function HomePage() {
 
             <Link
               href="/solutions"
-              className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors shrink-0"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors shrink-0"
             >
               <span>Explore All Solutions</span>
               <ArrowRight className="w-4 h-4" />
@@ -339,7 +339,7 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div className="space-y-3">
-                  <span className="text-[11px] font-mono font-semibold px-2.5 py-1 rounded-md bg-blue-50 text-blue-700">
+                  <span className="text-[11px] font-medium px-2.5 py-1 rounded-md bg-blue-50 text-blue-700">
                     {sol.badge}
                   </span>
                   <h3 className="text-lg font-bold text-slate-900">
@@ -356,7 +356,7 @@ export default function HomePage() {
                 <div className="pt-5 border-t border-slate-100 mt-5">
                   <Link
                     href={`/solutions#${sol.id}`}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:underline"
+                    className="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:underline"
                   >
                     <span>Read Business Solution</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -374,12 +374,12 @@ export default function HomePage() {
         <div className="bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-950 rounded-3xl p-8 sm:p-12 lg:p-16 text-white border border-blue-800/40 relative overflow-hidden shadow-xl">
           <div className="relative z-10 max-w-3xl space-y-5">
             
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-mono font-semibold">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-medium">
               <Sparkles className="w-3.5 h-3.5 text-blue-400" />
               <span>{PRODUCTS_CONFIG.hero.badge}</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-[-0.025em] text-white leading-tight">
               {PRODUCTS_CONFIG.visionStatement.title}
             </h2>
 
@@ -390,13 +390,13 @@ export default function HomePage() {
             <div className="pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <Link
                 href="/products"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md transition-all"
               >
                 <span>Explore Our Products</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
-              <span className="text-xs text-blue-200/80 font-mono">
+              <span className="text-xs text-blue-200/80 font-medium">
                 &bull; Currently in active architecture &amp; development
               </span>
             </div>
@@ -410,7 +410,7 @@ export default function HomePage() {
                 key={prod.id}
                 className="bg-white/5 border border-white/10 rounded-xl p-4 backdrop-blur-xs space-y-2"
               >
-                <div className="flex items-center justify-between text-[11px] font-mono text-blue-300">
+                <div className="flex items-center justify-between text-[11px] font-medium text-blue-300">
                   <span>{prod.conceptBadge}</span>
                   <span className="text-blue-400/80">{prod.developmentStage}</span>
                 </div>
@@ -426,11 +426,11 @@ export default function HomePage() {
       {/* 8. SECTION: CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-12 lg:p-14 text-center max-w-4xl mx-auto space-y-6">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Let&apos;s Collaborate
           </span>
 
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-[-0.025em]">
             Have a Technology Idea?
           </h2>
 

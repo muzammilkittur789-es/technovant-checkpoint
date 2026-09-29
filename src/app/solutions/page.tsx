@@ -87,15 +87,15 @@ export default function SolutionsPage() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-mono font-bold text-blue-600">
+                    <span className="text-xs font-medium text-blue-600">
                       AREA 0{index + 1}
                     </span>
                     <span className="text-slate-300">&bull;</span>
-                    <span className="text-xs font-mono font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-700">
+                    <span className="text-xs font-medium px-2 py-0.5 rounded bg-slate-100 text-slate-700">
                       {solution.badge}
                     </span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
                     {solution.title}
                   </h2>
                 </div>
@@ -103,7 +103,7 @@ export default function SolutionsPage() {
 
               <Link
                 href={`/contact?solution=${solution.id}`}
-                className="inline-flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-700"
+                className="inline-flex items-center gap-2 text-xs font-semibold text-blue-600 hover:text-blue-700"
               >
                 <span>Request Solution Blueprint</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -116,20 +116,20 @@ export default function SolutionsPage() {
               {/* Problem Statement */}
               <div className="lg:col-span-6 space-y-4">
                 <div className="bg-red-50/50 border border-red-200/60 rounded-2xl p-6 space-y-2">
-                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-red-800 font-mono">
+                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-red-800">
                     <HelpCircle className="w-4 h-4 text-red-600" />
                     <span>The Business Problem First</span>
                   </div>
-                  <p className="text-sm sm:text-base text-red-950 leading-relaxed font-medium">
+                  <p className="text-sm sm:text-base text-red-950 leading-relaxed font-normal">
                     {solution.businessProblem}
                   </p>
                 </div>
 
                 <div className="space-y-2 pt-2">
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500">
                     Our Solution Approach
                   </h3>
-                  <p className="text-sm text-slate-700 leading-relaxed">
+                  <p className="text-sm text-slate-700 leading-relaxed font-normal">
                     {solution.ourApproach}
                   </p>
                 </div>
@@ -138,7 +138,7 @@ export default function SolutionsPage() {
               {/* Business Outcomes & Technology Second */}
               <div className="lg:col-span-6 space-y-6 lg:border-l lg:border-slate-100 lg:pl-8">
                 <div>
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-700 mb-3">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-emerald-700 mb-3">
                     Target Business Outcomes
                   </h3>
                   <ul className="space-y-2.5">
@@ -152,12 +152,12 @@ export default function SolutionsPage() {
                 </div>
 
                 <div className="pt-2">
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 mb-2">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">
                     Sample Deliverables
                   </h3>
                   <ul className="space-y-1.5 text-xs text-slate-600">
                     {solution.sampleDeliverables.map((sd, i) => (
-                      <li key={i} className="bg-slate-50 rounded-lg p-2.5 border border-slate-100">
+                      <li key={i} className="bg-slate-50 rounded-lg p-2.5 border border-slate-100 font-normal">
                         &bull; {sd}
                       </li>
                     ))}
@@ -165,12 +165,12 @@ export default function SolutionsPage() {
                 </div>
 
                 <div className="pt-2">
-                  <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400 block mb-1.5">
+                  <span className="text-xs font-medium uppercase tracking-wider text-slate-400 block mb-1.5">
                     Applied Technologies:
                   </span>
                   <div className="flex flex-wrap gap-1.5">
                     {solution.technologiesUsed.map((tech) => (
-                      <span key={tech} className="px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-[11px] font-mono">
+                      <span key={tech} className="px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-[11px] font-medium">
                         {tech}
                       </span>
                     ))}
@@ -187,7 +187,7 @@ export default function SolutionsPage() {
       {/* 3. Bottom Consultation Callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-extrabold tracking-tight">
+          <h2 className="text-3xl font-bold tracking-[-0.025em]">
             Have a Specific Operational Challenge?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">

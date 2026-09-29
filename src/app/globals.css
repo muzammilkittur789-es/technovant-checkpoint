@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-heading: var(--font-manrope), sans-serif;
-  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-heading: var(--font-sora), sans-serif;
+  --font-sans: var(--font-poppins), sans-serif;
+  --font-mono: var(--font-poppins), sans-serif;
 }
 
 :root {
@@ -25,7 +25,7 @@ html {
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-poppins), sans-serif;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -33,33 +33,60 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Headings System: Manrope */
+/* Primary Heading System: Sora */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-manrope), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-sora), sans-serif;
 }
 
+/* Hero H1: 800 with slightly negative letter spacing */
 h1 {
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.12;
 }
 
+/* Major Headings: 700 with slightly negative letter spacing */
 h2 {
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.2;
 }
 
+/* Section/Card Headings: 600-700 */
 h3 {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.25;
 }
 
-/* Technical & Metadata Labels: IBM Plex Mono */
+h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+
+/* Body Text, Form Inputs, UI Elements: Poppins */
+p, input, textarea, select {
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 400;
+}
+
+/* Navigation Links: Poppins 500 */
+nav a {
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 500;
+}
+
+/* Buttons: Poppins 600 */
+button, [role="button"] {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Labels, Supporting Badges, Section Numbers: Poppins 500 */
 .font-mono, code, kbd, samp, pre {
-  font-family: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, monospace;
-  letter-spacing: -0.01em;
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 /* Custom subtle grid background for hero and featured sections */

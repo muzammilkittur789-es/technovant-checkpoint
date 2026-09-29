@@ -92,13 +92,13 @@ export default function CareersPage() {
       {/* 2. WHY JOIN US Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Growth &amp; Culture
           </span>
-          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
             Why Join Us
           </h2>
-          <p className="text-sm sm:text-base text-slate-600 mt-2">
+          <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
             We prioritize rapid learning, hands-on execution, and real mentorship over repetitive busywork.
           </p>
         </div>
@@ -115,7 +115,7 @@ export default function CareersPage() {
                   {item.title}
                 </h3>
               </div>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7 font-normal">
                 {item.description}
               </p>
             </div>
@@ -127,13 +127,13 @@ export default function CareersPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 rounded-3xl border border-slate-200 p-8 sm:p-12">
           <div className="max-w-3xl mb-10">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Candidate Profiles
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
               Who We Look For
             </h2>
-            <p className="text-sm text-slate-600 mt-2">
+            <p className="text-sm text-slate-600 mt-2 font-normal">
               We care about curiosity, problem-solving discipline, and hunger to build useful software — regardless of non-traditional backgrounds.
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function CareersPage() {
                 <h3 className="text-base font-bold text-slate-900">
                   {profile.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                   {profile.description}
                 </p>
               </div>
@@ -159,13 +159,13 @@ export default function CareersPage() {
       {/* 4. HIRING PROCESS (01 - 05) */}
       <section id="process" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-12">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
             Transparent Evaluation
           </span>
-          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+          <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
             Our Hiring Process
           </h2>
-          <p className="text-sm sm:text-base text-slate-600 mt-2">
+          <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
             No convoluted trick questions. We evaluate your practical problem-solving ability, curiosity, and communication.
           </p>
         </div>
@@ -177,13 +177,13 @@ export default function CareersPage() {
               className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs flex flex-col justify-between space-y-4 hover:border-blue-300 transition-all"
             >
               <div>
-                <span className="text-2xl font-black font-mono text-blue-600 block mb-2">
+                <span className="text-2xl font-bold text-blue-600 block mb-2">
                   {step.step}
                 </span>
                 <h3 className="text-base font-bold text-slate-900">
                   {step.name}
                 </h3>
-                <p className="text-xs text-slate-600 leading-relaxed mt-2">
+                <p className="text-xs text-slate-600 leading-relaxed mt-2 font-normal">
                   {step.description}
                 </p>
               </div>
@@ -196,10 +196,10 @@ export default function CareersPage() {
       <section id="open-roles" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 scroll-mt-28">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200 pb-6">
           <div>
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600">
+            <span className="text-xs font-medium uppercase tracking-wider text-blue-600">
               Current Openings
             </span>
-            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-1">
               Open Positions
             </h2>
           </div>
@@ -208,7 +208,7 @@ export default function CareersPage() {
               setIsGeneralApplication(true);
               setSubmitted(false);
             }}
-            className="text-xs font-bold text-blue-600 hover:underline inline-flex items-center gap-1"
+            className="text-xs font-semibold text-blue-600 hover:underline inline-flex items-center gap-1"
           >
             <span>Don&apos;t see your profile? Submit General Application</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -224,13 +224,13 @@ export default function CareersPage() {
               >
                 <div className="space-y-3 max-w-3xl">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded bg-blue-50 text-blue-700">
+                    <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-blue-50 text-blue-700">
                       {role.category}
                     </span>
-                    <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">
+                    <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">
                       {role.type}
                     </span>
-                    <span className="text-xs text-slate-400 flex items-center gap-1">
+                    <span className="text-xs text-slate-400 flex items-center gap-1 font-normal">
                       <MapPin className="w-3.5 h-3.5" /> {role.location}
                     </span>
                   </div>
@@ -257,7 +257,7 @@ export default function CareersPage() {
                       setIsGeneralApplication(false);
                       setSubmitted(false);
                     }}
-                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all active:scale-[0.98]"
+                    className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-xs transition-all active:scale-[0.98]"
                   >
                     Apply for Role
                   </button>
@@ -268,7 +268,7 @@ export default function CareersPage() {
         ) : (
           <div className="bg-slate-50 rounded-3xl border border-slate-200 p-12 text-center space-y-4">
             <h3 className="text-xl font-bold text-slate-900">No current openings</h3>
-            <p className="text-sm text-slate-600 max-w-md mx-auto">
+            <p className="text-sm text-slate-600 max-w-md mx-auto font-normal">
               We are not actively advertising specific roles right now, but we are always eager to review talented candidates for upcoming cohorts.
             </p>
             <button
@@ -276,7 +276,7 @@ export default function CareersPage() {
                 setIsGeneralApplication(true);
                 setSubmitted(false);
               }}
-              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-xs transition-all"
+              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-xs transition-all"
             >
               Submit General Application
             </button>
@@ -300,20 +300,20 @@ export default function CareersPage() {
             {!submitted ? (
               <div className="space-y-5">
                 <div>
-                  <span className="text-[11px] font-mono font-semibold px-2.5 py-1 rounded bg-blue-50 text-blue-700">
+                  <span className="text-[11px] font-medium px-2.5 py-1 rounded bg-blue-50 text-blue-700">
                     Application Form
                   </span>
                   <h3 className="text-xl font-bold text-slate-900 mt-2">
                     {selectedRole ? selectedRole.role : "General Talent Application"}
                   </h3>
-                  <p className="text-xs text-slate-500 mt-1">
+                  <p className="text-xs text-slate-500 mt-1 font-normal">
                     Fill in your details below. We review every application and respond within 48-72 business hours.
                   </p>
                 </div>
 
                 <form onSubmit={handleApply} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    <label className="block text-xs font-medium text-slate-700 mb-1">
                       Full Name *
                     </label>
                     <input
@@ -322,13 +322,13 @@ export default function CareersPage() {
                       placeholder="Your Full Name"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                     />
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <label className="block text-xs font-medium text-slate-700 mb-1">
                         Email Address *
                       </label>
                       <input
@@ -337,11 +337,11 @@ export default function CareersPage() {
                         placeholder="you@example.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <label className="block text-xs font-medium text-slate-700 mb-1">
                         Phone / WhatsApp *
                       </label>
                       <input
@@ -350,13 +350,13 @@ export default function CareersPage() {
                         placeholder="+91 / +1 ..."
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    <label className="block text-xs font-medium text-slate-700 mb-1">
                       GitHub Profile, Portfolio, or LinkedIn *
                     </label>
                     <input
@@ -365,18 +365,18 @@ export default function CareersPage() {
                       placeholder="https://github.com/yourhandle"
                       value={formData.portfolio}
                       onChange={(e) => setFormData({ ...formData, portfolio: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    <label className="block text-xs font-medium text-slate-700 mb-1">
                       Current Status / Experience Level
                     </label>
                     <select
                       value={formData.experienceLevel}
                       onChange={(e) => setFormData({ ...formData, experienceLevel: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                     >
                       <option>Fresher / 2025-2026 Graduate</option>
                       <option>Final-Year College Student</option>
@@ -386,7 +386,7 @@ export default function CareersPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    <label className="block text-xs font-medium text-slate-700 mb-1">
                       Brief Note on What You&apos;ve Built &amp; Why You Want to Join
                     </label>
                     <textarea
@@ -394,13 +394,13 @@ export default function CareersPage() {
                       placeholder="Tell us about a personal project, tool, or framework you enjoyed working with..."
                       value={formData.coverNote}
                       onChange={(e) => setFormData({ ...formData, coverNote: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-sm transition-all"
+                    className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition-all"
                   >
                     <span>Submit Application</span>
                     <Send className="w-4 h-4" />
@@ -415,13 +415,13 @@ export default function CareersPage() {
                 <h3 className="text-2xl font-bold text-slate-900">
                   Application Submitted!
                 </h3>
-                <p className="text-sm text-slate-600 max-w-sm mx-auto">
+                <p className="text-sm text-slate-600 max-w-sm mx-auto font-normal">
                   Thank you, <strong>{formData.name}</strong>. Your application has been logged under reference code:
                 </p>
-                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 font-mono text-xs font-bold text-blue-700">
+                <div className="inline-block px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-blue-700">
                   {applicationRef}
                 </div>
-                <p className="text-xs text-slate-500 max-w-sm mx-auto">
+                <p className="text-xs text-slate-500 max-w-sm mx-auto font-normal">
                   Our engineering team reviews submissions weekly and will reach out to <strong>{formData.email}</strong> regarding the next step.
                 </p>
                 <div className="pt-2">

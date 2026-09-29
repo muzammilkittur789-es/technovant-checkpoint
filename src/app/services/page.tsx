@@ -77,7 +77,7 @@ export default function ServicesPage() {
       {/* Quick Navigation Anchor Bar */}
       <section id="services-index" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4">
-          <div className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 mb-2 px-2">
+          <div className="text-xs font-medium uppercase tracking-wider text-slate-500 mb-2 px-2">
             Jump to service:
           </div>
           <div className="flex flex-wrap gap-2">
@@ -110,15 +110,15 @@ export default function ServicesPage() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-mono font-bold text-blue-600">
+                    <span className="text-xs font-medium text-blue-600">
                       0{index + 1}
                     </span>
                     <span className="text-slate-300">&bull;</span>
-                    <span className="text-xs font-mono uppercase tracking-wider text-slate-500">
+                    <span className="text-xs font-medium uppercase tracking-wider text-slate-500">
                       Service Domain
                     </span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-0.5">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-[-0.025em] mt-0.5">
                     {service.title}
                   </h2>
                 </div>
@@ -139,33 +139,33 @@ export default function ServicesPage() {
               {/* Left Column: What it is & Business Problem */}
               <div className="lg:col-span-6 space-y-6">
                 <div>
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 mb-1.5">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1.5">
                     What It Is
                   </h3>
-                  <p className="text-base text-slate-800 leading-relaxed font-medium">
+                  <p className="text-base text-slate-800 leading-relaxed font-normal">
                     {service.whatItIs}
                   </p>
                 </div>
 
                 <div className="bg-amber-50/60 border border-amber-200/70 rounded-2xl p-5 space-y-2">
-                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-900 font-mono">
+                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-900">
                     <HelpCircle className="w-4 h-4 text-amber-600" />
                     <span>Business Problem Solved</span>
                   </div>
-                  <p className="text-sm text-amber-950 leading-relaxed">
+                  <p className="text-sm text-amber-950 leading-relaxed font-normal">
                     {service.businessProblem}
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 mb-2">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">
                     Technologies &amp; Frameworks
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {service.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-mono"
+                        className="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium"
                       >
                         {tech}
                       </span>
@@ -177,7 +177,7 @@ export default function ServicesPage() {
               {/* Right Column: What We Can Build & Typical Use Cases */}
               <div className="lg:col-span-6 space-y-6 lg:border-l lg:border-slate-100 lg:pl-8">
                 <div>
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-blue-600 mb-2.5">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-blue-600 mb-2.5">
                     What We Can Build
                   </h3>
                   <ul className="space-y-2.5">
@@ -191,12 +191,12 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="pt-2">
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2.5">
                     Typical Business Use Cases
                   </h3>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-600">
                     {service.typicalUseCases.map((uc, i) => (
-                      <li key={i} className="bg-slate-50 rounded-xl p-3 border border-slate-100 leading-relaxed">
+                      <li key={i} className="bg-slate-50 rounded-xl p-3 border border-slate-100 leading-relaxed font-normal">
                         &bull; {uc}
                       </li>
                     ))}
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               </span>
               <Link
                 href={`/contact?service=${service.id}`}
-                className="text-blue-600 hover:text-blue-700 font-bold inline-flex items-center gap-1"
+                className="text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center gap-1"
               >
                 <span>Request a consultation for {service.title}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -226,7 +226,7 @@ export default function ServicesPage() {
       {/* 3. Bottom CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl font-extrabold tracking-tight">
+          <h2 className="text-3xl font-bold tracking-[-0.025em]">
             Need a Combination of Services?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">

@@ -89,7 +89,7 @@ export default function SaaSInteractiveSuite() {
               </div>
 
               <div>
-                <h3 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+                <h3 className="text-3xl font-bold text-slate-900 tracking-tight">
                   {activeProduct.name}
                 </h3>
                 <p className="text-lg text-blue-600 font-medium mt-1">
@@ -151,15 +151,15 @@ export default function SaaSInteractiveSuite() {
                   <div className="w-3 h-3 rounded-full bg-red-500"></div>
                   <div className="w-3 h-3 rounded-full bg-amber-500"></div>
                   <div className="w-3 h-3 rounded-full bg-emerald-500"></div>
-                  <span className="text-xs font-mono text-slate-400 ml-2">live-sandbox.technovant.io</span>
+                  <span className="text-xs font-medium text-slate-400 ml-2">live-sandbox.technovant.io</span>
                 </div>
-                <span className="text-[10px] bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded border border-emerald-800 font-mono">
+                <span className="text-[10px] bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded border border-emerald-800 font-medium">
                   ● ACTIVE TELEMETRY
                 </span>
               </div>
 
               <div className="mt-6 space-y-4">
-                <div className="text-xs uppercase font-mono tracking-wider text-slate-400">
+                <div className="text-xs uppercase font-medium tracking-wider text-slate-400">
                   {activeProduct.demoDetails.videoPlaceholderText}
                 </div>
 
@@ -169,9 +169,9 @@ export default function SaaSInteractiveSuite() {
                     <div key={i} className="p-3.5 rounded-xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-between">
                       <div>
                         <div className="text-xs text-slate-400 font-medium">{m.label}</div>
-                        <div className="text-lg font-bold text-white font-mono mt-0.5">{m.value}</div>
+                        <div className="text-lg font-bold text-white mt-0.5">{m.value}</div>
                       </div>
-                      <span className="text-xs font-mono font-semibold px-2 py-1 rounded bg-blue-900/60 text-blue-300 border border-blue-700/50">
+                      <span className="text-xs font-semibold px-2 py-1 rounded bg-blue-900/60 text-blue-300 border border-blue-700/50">
                         {m.change}
                       </span>
                     </div>
@@ -183,7 +183,7 @@ export default function SaaSInteractiveSuite() {
                   <div className="mt-6 p-4 rounded-xl bg-slate-800/40 border border-slate-700 space-y-3">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-300 font-medium">Estimated Monthly Cloud Spend</span>
-                      <span className="font-mono font-bold text-emerald-400">${formatNumber(cloudSpend)}</span>
+                      <span className="font-bold text-emerald-400">${formatNumber(cloudSpend)}</span>
                     </div>
                     <input
                       type="range"
@@ -196,14 +196,14 @@ export default function SaaSInteractiveSuite() {
                     />
                     <div className="pt-2 border-t border-slate-750 flex items-center justify-between text-xs">
                       <span className="text-slate-400">Calculated Annual Savings:</span>
-                      <span className="font-mono font-black text-emerald-300 text-sm">+{formatNumber(annualSavings)} / yr</span>
+                      <span className="font-bold text-emerald-300 text-sm">+{formatNumber(annualSavings)} / yr</span>
                     </div>
                   </div>
                 )}
 
                 {selectedProductIndex === 1 && (
-                  <div className="mt-6 p-4 rounded-xl bg-slate-800/40 border border-slate-700 space-y-2 font-mono text-xs text-slate-300">
-                    <div className="text-emerald-400">⚡ AI Autonomous Agent Log:</div>
+                  <div className="mt-6 p-4 rounded-xl bg-slate-800/40 border border-slate-700 space-y-2 text-xs text-slate-300">
+                    <div className="text-emerald-400 font-medium">⚡ AI Autonomous Agent Log:</div>
                     <div className="text-slate-400">→ Ticket #8942 received: "VPN gateway latency &gt; 350ms"</div>
                     <div className="text-slate-400">→ Analyzed logs, restarted idle tunnel interface</div>
                     <div className="text-emerald-400 font-semibold">✓ Resolved in 14.2s (Zero human escalation)</div>
@@ -211,8 +211,8 @@ export default function SaaSInteractiveSuite() {
                 )}
 
                 {selectedProductIndex === 2 && (
-                  <div className="mt-6 p-4 rounded-xl bg-slate-800/40 border border-slate-700 space-y-2 font-mono text-xs text-slate-300">
-                    <div className="text-blue-400">🔐 Zero-Trust Ephemeral Access Vault:</div>
+                  <div className="mt-6 p-4 rounded-xl bg-slate-800/40 border border-slate-700 space-y-2 text-xs text-slate-300">
+                    <div className="text-blue-400 font-medium">🔐 Zero-Trust Ephemeral Access Vault:</div>
                     <div className="text-slate-400">Token request: Production PostgreSQL Read-Only</div>
                     <div className="text-slate-400">Generated short-lived TLS cert (Valid: 45 min)</div>
                     <div className="text-emerald-400 font-semibold">✓ Auto-revoking upon session termination</div>
@@ -223,7 +223,7 @@ export default function SaaSInteractiveSuite() {
 
             <div className="pt-6 border-t border-slate-800 text-[11px] text-slate-500 flex items-center justify-between">
               <span>SOC2 Type II & ISO 27001 Certified</span>
-              <span className="text-blue-400 font-mono">Technovant Cloud Fabric v4.2</span>
+              <span className="text-blue-400 font-medium">Technovant Cloud Fabric v4.2</span>
             </div>
           </div>
 
@@ -261,7 +261,7 @@ export default function SaaSInteractiveSuite() {
               }`}
             >
               <span>Annual Billing</span>
-              <span className="bg-emerald-100 text-emerald-700 text-[10px] font-extrabold px-1.5 py-0.5 rounded-full">
+              <span className="bg-emerald-100 text-emerald-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">
                 Save 20%
               </span>
             </button>
@@ -276,11 +276,11 @@ export default function SaaSInteractiveSuite() {
             <div className="space-y-4">
               <div>
                 <h4 className="text-lg font-bold text-slate-900">Starter</h4>
-                <p className="text-xs text-slate-500 mt-1">Essential toolkit for scaling startups and fast teams.</p>
+                <p className="text-xs text-slate-500 mt-1 font-normal">Essential toolkit for scaling startups and fast teams.</p>
               </div>
 
               <div className="flex items-baseline gap-1 py-2">
-                <span className="text-4xl font-extrabold text-slate-900">
+                <span className="text-4xl font-bold text-slate-900">
                   ${billingCycle === "annual" ? activeProduct.pricing.starter.annual : activeProduct.pricing.starter.monthly}
                 </span>
                 <span className="text-xs text-slate-500 font-medium">/ month</span>
@@ -302,7 +302,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-bold text-center block transition-all"
+                className="w-full py-2.5 rounded-lg border border-slate-300 hover:border-slate-400 text-slate-800 text-xs font-semibold text-center block transition-all"
               >
                 Start 14-Day Free Trial
               </LinkButton>
@@ -311,18 +311,18 @@ export default function SaaSInteractiveSuite() {
 
           {/* Growth Plan (Popular) */}
           <div className="bg-blue-50/40 rounded-2xl border-2 border-blue-600 p-6 md:p-8 flex flex-col justify-between shadow-xl relative hover:shadow-2xl transition-all">
-            <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[10px] uppercase tracking-wider font-extrabold px-3 py-1 rounded-full shadow-sm">
+            <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full shadow-sm">
               Recommended Choice
             </div>
 
             <div className="space-y-4">
               <div>
                 <h4 className="text-lg font-bold text-slate-900">Growth</h4>
-                <p className="text-xs text-slate-500 mt-1">Advanced automation, multi-cloud sync & priority SLA.</p>
+                <p className="text-xs text-slate-500 mt-1 font-normal">Advanced automation, multi-cloud sync & priority SLA.</p>
               </div>
 
               <div className="flex items-baseline gap-1 py-2">
-                <span className="text-4xl font-extrabold text-blue-700">
+                <span className="text-4xl font-bold text-blue-700">
                   ${billingCycle === "annual" ? activeProduct.pricing.growth.annual : activeProduct.pricing.growth.monthly}
                 </span>
                 <span className="text-xs text-slate-500 font-medium">/ month</span>
@@ -344,7 +344,7 @@ export default function SaaSInteractiveSuite() {
             <div className="pt-6">
               <LinkButton
                 href="/contact"
-                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold text-center block shadow-md shadow-blue-500/25 transition-all"
+                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold text-center block shadow-md shadow-blue-500/25 transition-all"
               >
                 Deploy Growth Plan
               </LinkButton>
@@ -356,11 +356,11 @@ export default function SaaSInteractiveSuite() {
             <div className="space-y-4">
               <div>
                 <h4 className="text-lg font-bold text-slate-900">Custom Enterprise</h4>
-                <p className="text-xs text-slate-500 mt-1">Tailored security controls, custom connectors & dedicated TAM.</p>
+                <p className="text-xs text-slate-500 mt-1 font-normal">Tailored security controls, custom connectors & dedicated TAM.</p>
               </div>
 
               <div className="flex items-baseline gap-1 py-2">
-                <span className="text-4xl font-extrabold text-slate-900">Custom</span>
+                <span className="text-4xl font-bold text-slate-900">Custom</span>
               </div>
               <div className="text-[11px] text-slate-400">Volume licensing & custom SLA</div>
 
