@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="secBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a0812" />
+      <stop offset="60%" stop-color="#4c0519" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#secBg)" />
+
+  <!-- Central Shield Graphic -->
+  <g transform="translate(140, 100)">
+    <path d="M 80 0 L 160 30 L 160 120 Q 160 210 80 250 Q 0 210 0 120 L 0 30 Z" fill="#881337" stroke="#fb7185" stroke-width="3" />
+    
+    <!-- Inner Lock Symbol -->
+    <rect x="55" y="110" width="50" height="42" rx="6" fill="#f43f5e" />
+    <path d="M 64 110 L 64 92 Q 64 74 80 74 Q 96 74 96 92 L 96 110" fill="none" stroke="#f43f5e" stroke-width="6" stroke-linecap="round" />
+    <circle cx="80" cy="126" r="4" fill="#881337" />
+    <line x1="80" y1="126" x2="80" y2="138" stroke="#881337" stroke-width="3" />
+  </g>
+
+  <!-- Hardening Defense Checklist on Right -->
+  <g transform="translate(360, 90)">
+    <!-- Layer 1 -->
+    <rect x="0" y="0" width="340" height="55" rx="10" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+    <circle cx="28" cy="27" r="10" fill="#10b981" />
+    <text x="50" y="25" fill="#fecdd3" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">MFA Hardware / TOTP Enforced</text>
+    <text x="50" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Zero plain SMS authentication fallback</text>
+
+    <!-- Layer 2 -->
+    <rect x="0" y="70" width="340" height="55" rx="10" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+    <circle cx="28" cy="97" r="10" fill="#10b981" />
+    <text x="50" y="95" fill="#fecdd3" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Least-Privilege RBAC Access</text>
+    <text x="50" y="112" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Strict admin boundary limits per role</text>
+
+    <!-- Layer 3 -->
+    <rect x="0" y="140" width="340" height="55" rx="10" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+    <circle cx="28" cy="167" r="10" fill="#10b981" />
+    <text x="50" y="165" fill="#fecdd3" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Automated CI Dependency Patching</text>
+    <text x="50" y="182" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Continuous vulnerability audits (Dependabot)</text>
+
+    <!-- Layer 4 -->
+    <rect x="0" y="210" width="340" height="55" rx="10" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+    <circle cx="28" cy="237" r="10" fill="#10b981" />
+    <text x="50" y="235" fill="#fecdd3" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Encrypted Immutable Backups (WORM)</text>
+    <text x="50" y="252" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tested 30-day recovery objective</text>
+  </g>
+</svg>

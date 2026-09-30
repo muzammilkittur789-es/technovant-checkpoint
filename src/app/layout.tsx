@@ -17,6 +17,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://technovant.io"),
   title: "Technovant | Technology That Moves Your Business Forward",
   description: "Building practical digital solutions for businesses — from IT services and custom software to the next generation of SaaS products.",
   keywords: [
