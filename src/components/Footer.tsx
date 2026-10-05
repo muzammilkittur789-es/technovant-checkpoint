@@ -180,9 +180,16 @@ export default function Footer() {
 
         {/* Copyright and Legal */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>
-            &copy; {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.
-          </p>
+          <div className="flex flex-wrap items-center gap-2">
+            <p>
+              &copy; {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.
+            </p>
+            <span className="hidden sm:inline">&bull;</span>
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-950/70 border border-emerald-800/60 text-emerald-400 font-semibold tracking-wide text-[11px]">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              Test Deploy
+            </span>
+          </div>
           <div className="flex items-center gap-6">
             <Link href="/contact" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>
             <Link href="/contact" className="hover:text-slate-400 transition-colors">Terms &amp; Conditions</Link>
